@@ -1,0 +1,11 @@
+{
+  "name": "Private Website Blocker",
+  "version": "1.0.0",
+  "description": "Block websites in your browser.",
+  "manifest_version": 3,
+  "author": "Ismael Tovar",
+  "action":{
+      "default_popup": "index.html",
+      "default_title": "Private Website Blocker"
+  }
+}
