@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightsalmon;
+  font-family: 'Roboto', 'Oxygen', 'Ubuntu', sans-serif;
+}
+
+#header {
+  background-color: red;
+  color: black;
+  text-align: center;
+  padding: 1.5rem 0rem;
+}
+
+#header h1 {
+  font-size: 1.25rem;
+}
+
+li {
+  position: relative;
+  border-radius: 1rem;
+  background-color: transparent;
+  border: .5rem groove gray;
+  padding: .5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.li-txt {
+  text-align: left;
+  font-size: 1rem;
+}
+
+.li-remove {
+  background-color: darkred;
+  color: black;
+  font-size: 1rem;
+  border-radius: 30%;
+  padding: .25rem;
+}
+
+.li-remove:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+#add-btn {
+  background-color: darkred;
+  color: black;
+  text-align: center;
+  font-size: 1.1rem;
+  width: 100%;
+  padding: .25rem;
+}
+
+#add-btn:hover {
+  background-color: red;
+  cursor: pointer;
+}
