@@ -1,0 +1,23 @@
+{
+  "name": "private-website-blocker",
+  "version": "1.0.0",
+  "description": "Open-source website blocking tool.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ismaeltovar/private-website-blocker.git"
+  },
+  "author": "ismaeltovar",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ismaeltovar/private-website-blocker/issues"
+  },
+  "homepage": "https://github.com/ismaeltovar/private-website-blocker#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
